@@ -7,7 +7,7 @@ function iterator(to, from, apply) {
     var keys = Object.keys(from);
     var i;
     var key;
-    for (i=0, i < keys.length, i++) {
+    for (i=0; i < keys.length; i++) {
         key = keys[i];
         to[key] = apply(from, key)
     }
